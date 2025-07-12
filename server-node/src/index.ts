@@ -7,6 +7,7 @@ import FormData from "form-data";
 import axios from "axios";
 import { promisify } from "util";
 import { pipeline } from "stream";
+require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
